@@ -1,11 +1,11 @@
 import BlackJack.gui.inicio;
-import governorofpoker.Intinicio;
+import GovernorDAM.Intinicio;
+import TresEnRaya.ventana.Leaderboard;
 
 public class Main {
 
     public static void main(String[] args) {
-
         Intinicio obj =  new Intinicio();
-            new inicio();
+            obj.setVisible(true);
     }
 }
